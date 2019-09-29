@@ -33,7 +33,7 @@ exports[`RecordingTab.vue it has the correct pristine / empty state 1`] = `
           href="https://surveys.hotjar.com/s?siteId=717179&surveyId=137462"
           target="_blank"
         >
-          ⚡️ Puppeteer Recorder Pro is coming →
+          ⚡️ Automatik Pro is coming →
         </a>
       </div>
     </div>
@@ -91,7 +91,7 @@ exports[`RecordingTab.vue it has the correct recording DOM events state 1`] = `
           href="https://surveys.hotjar.com/s?siteId=717179&surveyId=137462"
           target="_blank"
         >
-          ⚡️ Puppeteer Recorder Pro is coming →
+          ⚡️ Automatik Pro is coming →
         </a>
       </div>
     </div>
@@ -178,7 +178,7 @@ exports[`RecordingTab.vue it has the correct recording Puppeteer custom events s
           href="https://surveys.hotjar.com/s?siteId=717179&surveyId=137462"
           target="_blank"
         >
-          ⚡️ Puppeteer Recorder Pro is coming →
+          ⚡️ Automatik Pro is coming →
         </a>
       </div>
     </div>
@@ -319,7 +319,7 @@ exports[`RecordingTab.vue it has the correct waiting for events state 1`] = `
           href="https://surveys.hotjar.com/s?siteId=717179&surveyId=137462"
           target="_blank"
         >
-          ⚡️ Puppeteer Recorder Pro is coming →
+          ⚡️ Automatik Pro is coming →
         </a>
       </div>
     </div>

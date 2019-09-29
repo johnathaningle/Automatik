@@ -1,10 +1,10 @@
 {
-  "name": "puppeteer-recorder",
+  "name": "Automatik",
   "version": "0.7.1",
   "description": "A Chrome extension for recording browser interaction and generating Puppeteer scripts",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development DEBUG=puppeteer-recorder:* webpack --watch",
+    "dev": "NODE_ENV=development DEBUG=Automatik:* webpack --watch",
     "build": "NODE_ENV=production webpack",
     "dist": "NODE_ENV=production webpack && node scripts/zip.js",
     "test": "npm run unit-test && npm run e2e-test",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/checkly/puppeteer-recorder"
+    "url": "https://github.com/checkly/Automatik"
   },
   "keywords": [
     "puppeteer",
@@ -28,9 +28,9 @@
   "author": "Tim Nolet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/checkly/puppeteer-recorder/issues"
+    "url": "https://github.com/checkly/Automatik/issues"
   },
-  "homepage": "https://github.com/checkly/puppeteer-recorder#readme",
+  "homepage": "https://github.com/checkly/Automatik#readme",
   "dependencies": {
     "@medv/finder": "^1.1.2",
     "events": "^3.0.0",
