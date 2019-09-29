@@ -33,7 +33,7 @@ gren release --override --data-source=milestones --milestone-match="{{tag_name}}
 ## Credits & disclaimer
 
 Automatic is a sister & love child to: 
-[Automatik](https://github.com/checkly/Automatik), [Daydream](https://github.com/segmentio/daydream) and [ui recorder](https://github.com/yguan/ui-recorder).
+[Puppeteer Recorder](https://github.com/checkly/puppeteer-recorder), [Daydream](https://github.com/segmentio/daydream) and [ui recorder](https://github.com/yguan/ui-recorder).
 
 ## License
 Apache 2
