@@ -4,9 +4,9 @@
   "description": "A Chrome extension for recording browser interaction and generating Puppeteer scripts",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development DEBUG=Automatik:* webpack --watch",
-    "build": "NODE_ENV=production webpack",
-    "dist": "NODE_ENV=production webpack && node scripts/zip.js",
+    "dev": "webpack --watch",
+    "build": "set NODE_ENV=production webpack",
+    "dist": "set NODE_ENV=production webpack && node scripts/zip.js",
     "test": "npm run unit-test && npm run e2e-test",
     "test-prod": "NODE_ENV=production npm run unit-test && npm run e2e-test",
     "unit-test": "jest __tests__/.*.spec.js --silent",
@@ -77,7 +77,7 @@
     "vue-template-compiler": "^2.5.17",
     "webpack": "^4.16.5",
     "webpack-chrome-extension-reloader": "^0.8.3",
-    "webpack-cli": "^3.1.0",
+    "webpack-cli": "^3.3.9",
     "zip-folder": "^1.0.0"
   },
   "standard": {
