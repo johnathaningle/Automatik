@@ -75,10 +75,6 @@
         </div>
       </div>
       <div class="footer">
-        sponsored by
-        <a href="https://checklyhq.com" target="_blank">
-          <img src="/images/text_racoon_logo.svg" alt="">
-        </a>
       </div>
     </div>
   </div>

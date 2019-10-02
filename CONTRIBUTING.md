@@ -1,6 +1,6 @@
 # Contributing
 
-HI! Thanks you for your interest in Automatik! We'd love to accept your patches and contributions, but please remember that this project was started first and foremost to serve the users of the Checkly API and Site transaction monitoring service.
+HI! Thanks you for your interest in Automatik! I'd love to accept your patches and contributions!
 
 ## New feature guidelines
 

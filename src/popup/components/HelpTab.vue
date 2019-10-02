@@ -20,7 +20,6 @@
         <li>Take screenshot: Ctrl+Shift+A</li>
         <li>Take clipped screenshot: Ctrl+Shift+M</li>
       </ul>
-      <p>For more help and examples, <a href="https://checklyhq.com/Automatik" target="_blank">go to the help docs</a></p>
       <h4>Replaying</h4>
       <p>Install <a href="https://github.com/GoogleChrome/puppeteer">Puppeteer</a> on your machine. Copy and paste the code
       into a file and run as a standard node program</p>
@@ -29,10 +28,6 @@ npm install puppeteer
 node my-script.js</pre>
     </div>
     <div class="help-footer text-muted">
-      sponsored by
-      <a href="https://checklyhq.com" target="_blank">
-        <img src="/images/text_racoon_logo.svg" alt="">
-      </a>
     </div>
   </div>
 </template>
