@@ -105,13 +105,11 @@ export default {
         this.storeState()
       },
       start () {
-        this.trackEvent('Start')
         this.cleanUp()
         console.debug('start recorder')
         this.bus.postMessage({ action: actions.START })
       },
       stop () {
-        this.trackEvent('Stop')
         console.debug('stop recorder')
         this.bus.postMessage({ action: actions.STOP })
 
@@ -140,7 +138,6 @@ export default {
         this.storeState()
       },
       openOptions () {
-        this.trackEvent('Options')
         if (this.$chrome.runtime.openOptionsPage) {
           this.$chrome.runtime.openOptionsPage()
         }
@@ -172,7 +169,6 @@ export default {
         })
       },
       setCopying () {
-        this.trackEvent('Copy')
         this.isCopying = true
         setTimeout(() => { this.isCopying = false }, 1500)
       },
@@ -181,13 +177,7 @@ export default {
         this.showHelp = false
       },
       toggleShowHelp () {
-        this.trackEvent('Help')
         this.showHelp = !this.showHelp
-      },
-      trackEvent (event) {
-        if (this.options && this.options.extension && this.options.extension.telemetry) {
-          if (window._gaq) window._gaq.push(['_trackEvent', event, 'clicked'])
-        }
       },
       trackPageView () {
         if (this.options && this.options.extension && this.options.extension.telemetry) {
