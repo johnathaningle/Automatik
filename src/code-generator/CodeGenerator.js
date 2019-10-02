@@ -53,6 +53,7 @@ export default class CodeGenerator {
   }
 
   _parseEvents (events) {
+    console.log("Parsing events....")
     console.debug(`generating code for ${events ? events.length : 0} events`)
     let result = ''
 
